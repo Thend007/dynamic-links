@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        window.onload = function() {
+            var isAndroid = /android/i.test(navigator.userAgent);
+            var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isAndroid) {
+                // Redirect to the Play Store
+                window.location.href = 'https://play.google.com/store/apps/details?id=com.google.android.youtube';
+            } else if (isiOS) {
+                // Redirect to the App Store
+                window.location.href = 'https://apps.apple.com/app/youtube-watch-listen-stream/id544007664';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>AppLink Test</h1>
+    <p>This is an example of a website that redirects users to the YouTube app's page on the App Store or Play Store, depending on their device.</p>
+</body>
+</html>
