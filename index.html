@@ -4,7 +4,7 @@
     <title>Hello App Links</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript">
-        window.onload = function() {
+        function redirectToStore() {
             var isAndroid = /android/i.test(navigator.userAgent);
             var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
             if (isAndroid) {
@@ -20,5 +20,6 @@
 <body>
     <h1>AppLink Test</h1>
     <p>This is an example of a website that redirects users to the YouTube app's page on the App Store or Play Store, depending on their device.</p>
+    <button onclick="redirectToStore()">Redirect to Store</button>
 </body>
 </html>
