@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.thend.applinks",
-    "sha256_cert_fingerprints": ["14:6D:E9:83:C5:73:06:50:D8:EE:B9:95:2F:34:FC:64:16:A0:83:42:E6:1D:BE:A8:8A:04:96:B2:3F:36:77:9A"]
+    "package_name": "com.elbehiry.delish",
+    "sha256_cert_fingerprints": ["A9:A4:05:09:25:C2:1E:E6:F8:F2:AE:75:7C:87:10:01:F4:18:DA:E7:CC:0D:AA:DA:57:F5:39:4F:BF:D8:8A:45"]
   }
 }]
