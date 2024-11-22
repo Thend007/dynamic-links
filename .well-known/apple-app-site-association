@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appId": "fsoft.mfx.vn",
+        "paths": [
+          "NOT /_/*",
+          "/*"
+        ]
+      }
+    ]
+  }
+}
