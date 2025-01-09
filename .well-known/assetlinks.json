@@ -3,6 +3,6 @@
   "target": {
     "namespace": "android_app",
     "package_name": "com.thend.example.dynamiclinks",
-    "sha256_cert_fingerprints": ["A9:A4:05:09:25:C2:1E:E6:F8:F2:AE:75:7C:87:10:01:F4:18:DA:E7:CC:0D:AA:DA:57:F5:39:4F:BF:D8:8A:45"]
+    "sha256_cert_fingerprints": ["E2:C3:C9:9C:1C:A2:A2:EC:AD:3C:00:68:D1:FC:C8:BD:5B:E4:2B:B3:2E:71:18:AD:FF:C1:53:14:9C:B7:D3:77"]
   }
 }]
